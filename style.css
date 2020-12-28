@@ -7,9 +7,18 @@
   font-family: 'Satisfy', cursive;
 }
 
-body
-{
+@import "compass/css3";
+
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background: black;
   overflow: hidden;
+}
+
+canvas {
+  display: block;
 }
 
 section
@@ -74,19 +83,6 @@ section .box .circle h2
   font-size: 4em;
   color: #ff2a2a;
   text-align: center;
-}
-
-@import "compass/css3";
-
-html, body {
-  padding: 0;
-  margin: 0;
-  height: 100%;
-  background: black;
-}
-
-canvas {
-  display: block;
 }
 
 /* section i
