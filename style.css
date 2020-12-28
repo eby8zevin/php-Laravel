@@ -1,17 +1,3 @@
-@import "compass/css3";
-
-html, body {
-  padding: 0;
-  margin: 0;
-  height: 100%;
-  background: black;
-  overflow: hidden;
-}
-
-canvas {
-  display: block;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 *
 {
@@ -83,4 +69,18 @@ section .box .circle h2
   font-size: 4em;
   color: #ff2a2a;
   text-align: center;
+}
+
+@import "compass/css3";
+*
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background: black;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
 }
