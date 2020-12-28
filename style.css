@@ -76,7 +76,20 @@ section .box .circle h2
   text-align: center;
 }
 
-section i
+@import "compass/css3";
+
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background: black;
+}
+
+canvas {
+  display: block;
+}
+
+/* section i
 {
   position: absolute;
   background: #ff2a2a;
@@ -110,4 +123,4 @@ section i:nth-child(even)
     transform: translateY(-2000%);
     opacity: 0;
   }
-}
+} */
