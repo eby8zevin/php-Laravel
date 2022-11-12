@@ -10,8 +10,6 @@
 
 <body>
     <h1>About Page!</h1>
-    <h2>About Page Testing 1!</h2>
-    <h3>About Page Testing 2!</h3>
 </body>
 
 </html>
